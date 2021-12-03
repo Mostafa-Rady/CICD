@@ -7,7 +7,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: 	kp212112031537
+      KeyName: 'kp212112031537'
       ImageId: 'ami-002068ed284fb165b'
       InstanceType: t3.micro
   InstanceSecurityGroup:
